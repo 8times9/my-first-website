@@ -1,0 +1,68 @@
+﻿body {
+    background-color:black;
+}
+
+header {
+    background-image:url('Images/tstudio_lv-6I5AeZ26leY-unsplash.jpg');
+    height: 15em;
+    color: white;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    /*Align items and align content are very much different!*/
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.75em;
+    background-color: black;
+    box-shadow: 0em 0em .1em .1em black;
+    margin:.5em;
+}
+
+h2 {
+    color: white;
+    font-size:1.5em;
+}
+
+.mybutton {
+    box-shadow: 0em 0em .1em .1em white;
+    border-radius: 2em;
+    background-color: #8d1020;
+    width:10em;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+}
+
+.imagessection {
+    padding:2em;
+}
+
+.paragraphbckgrnd {
+    display: flex;
+    background-color: #d5262d;
+    color: white;
+    font-size: 1em;
+    margin:0em 3em 3em 3em;
+    border: inset 4px solid white;
+    border-radius:.25em;
+    max-width:50em;
+    padding:1.75em;
+}
+
+h3 {
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+
+p {
+    color:white;
+    margin:1em 2em 3em 2em;
+}
